@@ -19,12 +19,14 @@ header {
 }
 
 body {
-    background: #777;
+    background: #ddd;
 }
 
 #pImg {
     max-width: 200px;
+    border-radius: 10px;
     float: left;
+    margin-right: 10px; 
 }
 
 h1 {
@@ -33,7 +35,6 @@ h1 {
     font-weight: 900;
     font-family: 'Georgia', Times, 'Times New Roman', serif; 
     color: #fff;
-    text-align: center;
     width: 250px;
     height: 100px;
     padding-top: 40px;
@@ -51,6 +52,8 @@ h2 {
 p {
     line-height: 25px;
     margin: 0 auto;
+    margin: 15px;
+    text-align: left;
 }
 
 aside {
@@ -76,15 +79,15 @@ aside {
     display: block;
     margin: 0 auto;   
     border-radius: 12px;
-    padding: 25px; 
-    height: 900px;
+    padding: 35px;
+    clear: both;
 }
 
 #container {
     margin: 0 auto;
     width: 90%;
     display: block;
-    height: 900px;
+    height: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
