@@ -40,6 +40,19 @@ h1 {
     padding-bottom: 10px;
 }
 
+h2 {
+    font-size: 28px;
+    font-family: Georgia;
+    font-weight: 900;
+    color: #4aaaa5;
+    text-align: left;
+}
+
+p {
+    line-height: 25px;
+    margin: 0 auto;
+}
+
 aside {
     background: #fff;
     color: #4aaaa5;
@@ -55,12 +68,16 @@ aside {
     float: right;
     width: 200px;
     height: 100px;
+    font-family: Arial;
 }
 
 .main {
     background-color: #FFF;
     display: block;
-    margin: 0 auto;    
+    margin: 0 auto;   
+    border-radius: 12px;
+    padding: 25px; 
+    height: 900px;
 }
 
 #container {
